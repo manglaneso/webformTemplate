@@ -1,0 +1,113 @@
+html, body{
+	height:100%;
+	margin: 0;
+  	padding: 0;
+  	min-width: 1024px;
+}
+
+/*------Body of the html document------*/
+body{
+	background-color:#dcdcdc;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*------Div containing the form------*/
+#formdiv{
+    position:relative;
+    top:100px;
+    margin-right:auto;
+    margin-left:auto;
+	width: 550px;
+	background-color: #f1f1f1;
+}
+
+/*------Form to fill in------*/
+#form{
+	color: #484a4c;
+	padding:5%;
+	width: 500px;
+	background-color: #f1f1f1;
+}
+
+/*------Red asterisk which informs about a mandatory field------*/
+.mandatory{
+	color:red;
+}
+
+/*------Input boxes------*/
+.inputboxes{
+	float:right;
+	width:50%;
+	border-radius:3px;
+	border:1px solid #9B9B9B;
+}
+
+/*------Label with the checkboxes------*/
+#check{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/*------Label wwith the first radio buttons------*/
+#radiobutton1{
+	float:right;
+}
+
+/*------Label wwith the second radio buttons------*/
+#radiobutton2{
+	float:right;
+}
+
+/*------Button to which add a functionality------*/
+#jbutton{
+	float:right;
+	font-size:60%;
+}
+
+/*------Button to submit the form------*/
+#submitbutton{
+	font-size:75%;
+	float:right;
+}
+
+/*------Not clicked user and privacy terms link------*/
+.privacy:link{
+	color: #484a4c;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/*------Visited user and privacy terms link------*/
+.privacy:visited {
+	color:#484a4c;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/*------Hovered user and privacy terms link------*/
+.privacy:hover {
+	color:#484a4c;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/*------Active user and privacy terms link------*/
+.privacy:active {
+	color:#484a4c;
+	background-color: none;
+}
+
+/*------Class of the warning divs of the form------*/
+.noti{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#ffffff;
+	background-color:#d64937;
+	padding:5px;
+}
+
+/*------Text explaining what fields are mandatory------*/
+#info{
+	font-size:75%;
+	float:right;
+}
